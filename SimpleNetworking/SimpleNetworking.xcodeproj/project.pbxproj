@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		C5074E9125F78C7A00F82A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5074E9025F78C7A00F82A6B /* Assets.xcassets */; };
 		C5074E9425F78C7A00F82A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5074E9225F78C7A00F82A6B /* LaunchScreen.storyboard */; };
 		C5074E9D25F79D5800F82A6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5074E9C25F79D5700F82A6B /* User.swift */; };
+		C597B51225F8BDE3001933CF /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C597B51125F8BDE3001933CF /* Endpoints.swift */; };
+		C597B51525F8D820001933CF /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = C597B51425F8D820001933CF /* Books.swift */; };
 		EE936E1BC73A94E6270F3683 /* Pods_SimpleNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB215595D48FCE1B96AD14D1 /* Pods_SimpleNetworking.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		C5074E9325F78C7A00F82A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5074E9525F78C7A00F82A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5074E9C25F79D5700F82A6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C597B51125F8BDE3001933CF /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		C597B51425F8D820001933CF /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		DFF889FC1F704A809FE41CC2 /* Pods-SimpleNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetworking.release.xcconfig"; path = "Target Support Files/Pods-SimpleNetworking/Pods-SimpleNetworking.release.xcconfig"; sourceTree = "<group>"; };
 		EB215595D48FCE1B96AD14D1 /* Pods_SimpleNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,7 +54,6 @@
 				8C3F1D925779BDD721D5770C /* Pods-SimpleNetworking.debug.xcconfig */,
 				DFF889FC1F704A809FE41CC2 /* Pods-SimpleNetworking.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,6 +90,8 @@
 				C5074E8925F78C7400F82A6B /* SceneDelegate.swift */,
 				C5074E8B25F78C7400F82A6B /* ViewController.swift */,
 				C5074E9C25F79D5700F82A6B /* User.swift */,
+				C597B51425F8D820001933CF /* Books.swift */,
+				C597B51125F8BDE3001933CF /* Endpoints.swift */,
 				C5074E8D25F78C7400F82A6B /* Main.storyboard */,
 				C5074E9025F78C7A00F82A6B /* Assets.xcassets */,
 				C5074E9225F78C7A00F82A6B /* LaunchScreen.storyboard */,
@@ -209,10 +214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C597B51525F8D820001933CF /* Books.swift in Sources */,
 				C5074E9D25F79D5800F82A6B /* User.swift in Sources */,
 				C5074E8C25F78C7400F82A6B /* ViewController.swift in Sources */,
 				C5074E8825F78C7400F82A6B /* AppDelegate.swift in Sources */,
 				C5074E8A25F78C7400F82A6B /* SceneDelegate.swift in Sources */,
+				C597B51225F8BDE3001933CF /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
